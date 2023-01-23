@@ -102,8 +102,8 @@ class edaDF:
     showOutliers(self)
         returns dataframe of outliers specified by setOutlierBounds()
 
-    getOutlierConditions(self)
-        returns list of outlier conditions
+    displayOutlierBounds(self)
+        prints list of outlier conditions
 
     targetBalance(self)
         returns dataframe showing the number of entries in each category in the target
